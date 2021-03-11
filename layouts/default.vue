@@ -1,13 +1,34 @@
 <template>
-  <div>
+  
+ 
     <Nuxt />
-  </div>
+  
 </template>
 
-<style>
+<style lang="scss">
+
+/* Шрфиты */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('~assets/fonts/PT-sans/PTSans-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('~assets/fonts/PT-sans/PTSans-Bold.woff2') format('woff2');
+}
+
+/* Глобальные настройки */
 html {
   font-family:
-    'Source Sans Pro',
+
+    'PT Sans',
     -apple-system,
     BlinkMacSystemFont,
     'Segoe UI',
@@ -31,32 +52,29 @@ html {
   margin: 0;
 }
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
+button {
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
 }
 
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
+h1, h2, h3 {
+    margin: 0;
 }
+p {
+    margin: 0;
+}
+
 </style>

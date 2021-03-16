@@ -1,8 +1,10 @@
 <template>
-  
- 
-    <Nuxt />
-  
+  <div>
+      <Header />
+      <Nuxt />
+      <MenuBasket />
+
+  </div>
 </template>
 
 <style lang="scss">

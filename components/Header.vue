@@ -42,7 +42,7 @@ export default {
         background-repeat: no-repeat
         background-position: center
         background-size: cover
-        color: red
+    
         &-count
             position: absolute
             top: -2px

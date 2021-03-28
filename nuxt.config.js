@@ -42,6 +42,6 @@ export default {
 
   target: 'static',
   router: {
-    base: '/ida-test/'
+    base: '/ida-test/dist/'
   }
 }

@@ -38,11 +38,11 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    publicPath: ''
+    publicPath: ""
   },
 
   target: 'static',
   router: {
-    base: '/ida-test/dist/'
+    base: 'ida-test/dist/'
   }
 }

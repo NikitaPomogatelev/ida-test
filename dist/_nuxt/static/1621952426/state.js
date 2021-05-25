@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"ida-test\u002Fdist\u002F_nuxt\u002Fstatic\u002F1621952426",layout:"default",error:a,serverRendered:true,routePath:"\u002F",config:{app:{basePath:"ida-test\u002Fdist\u002F",assetsPath:"ida-test\u002Fdist\u002F_nuxt\u002F",cdnURL:a}}}}(null));

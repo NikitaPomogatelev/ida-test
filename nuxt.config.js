@@ -43,6 +43,6 @@ export default {
 
   target: 'static',
   router: {
-    base: 'ida-test/dist/'
+    base: 'https://nikitapomogatelev.github.io/ida-test/dist/'
   }
 }

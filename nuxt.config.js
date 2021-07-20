@@ -37,12 +37,12 @@ export default {
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
-    publicPath: ""
-  },
+  // build: {
+  //   publicPath: ''
+  // },
 
   target: 'static',
   router: {
-    base: 'https://nikitapomogatelev.github.io/ida-test/dist/'
+    base: ''
   }
 }

@@ -1,5 +1,9 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  target: 'static',
+  router: {
+    base: '/ida-test/'
+  },
   head: {
     title: 'ida-test',
     htmlAttrs: {
@@ -37,12 +41,6 @@ export default {
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  // build: {
-  //   publicPath: ''
-  // },
-
-  target: 'static',
-  router: {
-    base: '/ida-test/'
-  }
+  
+  
 }

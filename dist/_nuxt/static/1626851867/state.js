@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"\u002Fida-test\u002F_nuxt\u002Fstatic\u002F1626851867",layout:"default",error:a,serverRendered:true,routePath:"\u002F",config:{app:{basePath:"\u002Fida-test\u002F",assetsPath:"\u002Fida-test\u002F_nuxt\u002F",cdnURL:a}}}}(null));
